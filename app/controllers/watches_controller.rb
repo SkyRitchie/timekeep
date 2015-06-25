@@ -10,6 +10,7 @@ class WatchesController < ApplicationController
   end
 
   def new
+    @watch = Watch.new
   end
 
   def edit
